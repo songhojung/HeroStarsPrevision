@@ -21,6 +21,7 @@ public class Main : MonoBehaviour
                     _instance = new GameObject("Main").AddComponent<Main>();
             }
 
+
             return _instance;
         }
     }
