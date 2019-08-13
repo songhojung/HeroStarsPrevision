@@ -13,12 +13,31 @@ public enum NETWORK_STATE { IDEL,
 
 public enum DISCONNECT_STATE { IDLE, NORMALITY, ERROR }
 
-public enum RELAY_PROTOCOL { MOVE, SHOT, SHOTGUN_SHOT, GRENADE_MOVE, GRENADE_EXPLOSION, SKILL, REVENGE_OK, BARRIER_CHECK, VOICE_CHAT, TEST };
+public enum RELAY_PROTOCOL { MOVE, SHOT, SHOTGUN_SHOT, GRENADE_MOVE, GRENADE_EXPLOSION, SKILL, REVENGE_OK, BARRIER_CHECK, VOICE_CHAT,OBTAINITEM_MOVE , TEST };
 
 enum RECV_GAMEOVER_SATAE { IDLE, GET_PROTOCOL, SET_INIT_END };
 
 public class Network_Battle_Script : MonoBehaviour
 {
+    #region sigletone
+    private static Network_Battle_Script _instance;
+    public static Network_Battle_Script Getsingleton
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = FindObjectOfType(typeof(Network_Battle_Script)) as Network_Battle_Script;
+
+              
+            }
+
+            return _instance;
+        }
+    }
+  
+    #endregion
+
     GamePlay_Script Game_Script = null;
 
     public NETWORK_STATE Network_State;
@@ -38,6 +57,8 @@ public class Network_Battle_Script : MonoBehaviour
     
     void Awake()
     {
+        _instance = this;
+
         Network_State = NETWORK_STATE.IDEL;        
     }
        
@@ -604,7 +625,11 @@ public class Network_Battle_Script : MonoBehaviour
 
                 Game_Script.Recv_Voice_Chat_Data(_Receive_data);
 
-                break; 
+                break;
+
+            case RELAY_PROTOCOL.OBTAINITEM_MOVE: //게임획득아이템 데이터받기
+                Game_Script.Recv_OtainGameItem_Move_Data(_Receive_data);
+                break;
             default:
 
                 Disconnect(" P to P 선언 되지 않은 프로토콜 : " + Relay_Protocol);

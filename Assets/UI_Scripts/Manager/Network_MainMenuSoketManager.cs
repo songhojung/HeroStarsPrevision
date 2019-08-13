@@ -123,25 +123,7 @@ public class Network_MainMenuSoketManager : MonoBehaviour
 		//리시브 받은 데이터들 처리 
 		Chk_RecieveProcess();
 
-		if (Input.GetKeyDown(KeyCode.F2))
-		{
-			Disconnect(DISCONNECT_STATE.IDLE, "임의 네트워차단");
-		}
-		if (Input.GetKeyDown(KeyCode.F3))
-		{
-			Start_mainMenuServer();
-		}
-		if (Input.GetKeyDown(KeyCode.F4))
-		{
-			Link_Script.i.GamePlay_Send_Quick_Join(BattleKind.NORMAL);
-		}
-		if (Input.GetKeyDown(KeyCode.F5))
-		{
-			UI_Manager.Getsingleton.CreatAndGetPopup<UI_Popup_Notice>(UIPOPUP.POPUPNOTICE);
-		}
-		if (Input.GetKeyDown(KeyCode.F6))
-		{
-		}
+		
 	}
 
 

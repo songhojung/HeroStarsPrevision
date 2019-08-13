@@ -16,6 +16,24 @@ public enum RESPAWN_KIND { NORMAL, HELICOPTER }
 
 public class GamePlay_Script : MonoBehaviour
 {
+    #region sigletone
+    private static GamePlay_Script _instance;
+    public static GamePlay_Script Getsingleton
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = FindObjectOfType(typeof(GamePlay_Script)) as GamePlay_Script;
+
+
+            }
+
+            return _instance;
+        }
+    }
+
+    #endregion
 
     string deviceUniqueIdentifier;
 
@@ -115,7 +133,12 @@ public class GamePlay_Script : MonoBehaviour
     public RESPAWN_KIND Respawn_Kind;
 
     public int Bot_Make_Count = 0;
-        
+
+    private void Awake()
+    {
+        _instance = this; 
+    }
+
     void Start()
     {
 
@@ -153,6 +176,12 @@ public class GamePlay_Script : MonoBehaviour
         //FrameView();
 
         Main_Operation();
+
+        //test
+        if(Input.GetKeyDown(KeyCode.F5))
+        {
+            ForceCreate_ObtainItem();
+        }
     }
 
 
@@ -3011,4 +3040,76 @@ public class GamePlay_Script : MonoBehaviour
     }
 
     //====================================================================================================================================================================================================
+
+
+
+
+    // =============================인게임 게임 아이템 처리관련================================
+
+
+    public Dictionary<byte, ObtainGameItem> Dic_OtainItems = new Dictionary<byte, ObtainGameItem>();
+    private GameObject Object_OrinObtainGameItem;
+
+    public void Recv_OtainGameItem_Move_Data(ByteData _Receive_data)
+    {
+        byte createdIndex = 0;
+        byte ObtainItemUserKnd = 0;
+
+        _Receive_data.OutPutVariable(ref createdIndex);
+        _Receive_data.OutPutVariable(ref ObtainItemUserKnd);
+
+
+        //생성 되지 않았다면 만들어 준다.
+        if (Dic_OtainItems.ContainsKey(createdIndex) == false)
+        {
+            Make_ObtainItem(createdIndex);
+
+            Dic_OtainItems[createdIndex].Init_Item(CHAR_USER_KIND.NETWORK, createdIndex);
+            //초기위치설정
+            Dic_OtainItems[createdIndex].Init_LocationPos(_Receive_data);
+        }
+        else
+        {
+            //아이템 이동데이터 전달
+            Dic_OtainItems[createdIndex].Recv_ObtainGameItem_Data(_Receive_data);
+        }
+    }
+
+   
+    //아이템 생성
+    void Make_ObtainItem(byte _createdIndex)
+    {
+        if(Object_OrinObtainGameItem == null)
+        {
+            Object_OrinObtainGameItem = Resources.Load("Battle_Prefab/1_Game_OJ_Folder/ObtainGameItem_Object") as GameObject;
+        }
+
+        ObtainGameItem obtainItem = Instantiate(Object_OrinObtainGameItem).GetComponent<ObtainGameItem>();
+        obtainItem.name = "ObtainItem_" + _createdIndex;
+        obtainItem.transform.SetParent(Link_Script.i.Effect_OJ_Set);
+        Dic_OtainItems[_createdIndex] = obtainItem;
+    }
+
+
+    int TotalObtainItemCreatedCntForTest = 0;
+    void ForceCreate_ObtainItem()
+    {
+        Make_ObtainItem((byte)TotalObtainItemCreatedCntForTest);
+
+        if(Dic_OtainItems.ContainsKey((byte)TotalObtainItemCreatedCntForTest))
+        {
+            Vector3 pos = Char_Script[MY_INDEX].transform.position;
+
+            Dic_OtainItems[(byte)TotalObtainItemCreatedCntForTest].Init_Item(CHAR_USER_KIND.PLAYER, (byte)TotalObtainItemCreatedCntForTest);
+
+            Dic_OtainItems[(byte)TotalObtainItemCreatedCntForTest].Init_LocationPos(pos, Vector3.zero);
+
+            TotalObtainItemCreatedCntForTest++;
+        }
+    }
+
+
+
+
+
 }
