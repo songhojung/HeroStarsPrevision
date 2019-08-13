@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - A_Team
+  - B_Team
+  - Grenade
+  - Char_Sword
+  - WALL
+  - TitleSecret
+  - ChacterSelecting
+  - CharSelectArea
+  - OutSide_Cube
+  - DeadZone
+  - Destroy_OJ
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Sword
+  - Char_Die
+  - Ragdoll
+  - Char_Controller
+  - Ragdoll_Die
+  - LobbyCharacter
+  - Grenade
+  - OutSide_Cube
+  - HeadShot_OJ
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e8bbd32895ecb684a92266bfc726e734
+timeCreated: 1535430649
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Keifont
+  fontNames:
+  - Keifont
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9017053b8e8335b4a87ee008f6a3e3c2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

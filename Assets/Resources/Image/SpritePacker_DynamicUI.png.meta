@@ -1,0 +1,1743 @@
+fileFormatVersion: 2
+guid: 19825c1b0169bbf459e0436e63a7197b
+timeCreated: 1539919452
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: battle_sniperback
+    21300002: battle_grenadeback
+    21300004: text_gameover
+    21300006: icon_special
+    21300008: icon_caln
+    21300010: icon_league
+    21300012: battle_shine
+    21300014: battle_joystickback
+    21300016: back_gamemode
+    21300018: text_draw
+    21300020: text_lose
+    21300022: battle_killerback
+    21300024: text_win
+    21300026: battle_damage
+    21300028: battle_hpback
+    21300030: icon_lobbystart
+    21300032: back_slot_blank
+    21300034: back_slot_select
+    21300036: back_slot_ready
+    21300038: back_resultscore
+    21300040: icon_resultskull
+    21300042: back_gamestart
+    21300044: loginicon_google
+    21300046: loginicon_gamecenter
+    21300048: loginicon_guest
+    21300050: loginicon_facebook
+    21300052: battle_text_4
+    21300054: battle_text_3
+    21300056: battle_text_2
+    21300058: back_lobbymain
+    21300060: battle_text_1
+    21300062: back_circle
+    21300064: btn_lobby_ciclebutton
+    21300066: battle_text_6
+    21300068: battle_text_8
+    21300070: battle_text_5
+    21300072: battle_text_9
+    21300074: icon_find
+    21300076: battle_text_7
+    21300078: icon_ask
+    21300080: battle_text_wow
+    21300082: battle_hp
+    21300084: back_gradation
+    21300086: back_textbubble2
+    21300088: btn_gamestart1
+    21300090: btn_gamestart0
+    21300092: text_leaguenumber_10
+    21300094: back_shopbonus
+    21300096: battle_reload
+    21300098: back_roundbox6
+    21300100: slider3_fore
+    21300102: Effect_StarShine
+    21300104: icon_lobbyshop
+    21300106: battle_network
+    21300108: back_trianglegradation
+    21300110: icon_write
+    21300112: battle_charactermove
+    21300114: battle_cameramove
+    21300116: back_textbubble0
+    21300118: btn_lobbysupply_off
+    21300120: btn_lobbysupply_on
+    21300122: icon_lobbyfomation
+    21300124: gauge_userexp
+    21300126: battle_text_tutorial
+    21300128: btn_sub
+    21300130: back_textbubble5
+    21300132: battle_critical
+    21300134: battle_jump
+    21300136: back_roundbox3
+    21300138: icon_ad
+    21300140: btn_return
+    21300142: icon_loading
+    21300144: icon_friendinvite
+    21300146: text_leaguenumber_3
+    21300148: text_leaguenumber_0
+    21300150: icon_lobbyfriend
+    21300152: text_leaguenumber_8
+    21300154: battle_textbubble
+    21300156: battle_run
+    21300158: battle_skull
+    21300160: text_leaguenumber_4
+    21300162: back_roundbox1
+    21300164: text_leaguenumber_5
+    21300166: text_leaguenumber_6
+    21300168: text_leaguenumber_9
+    21300170: text_leaguenumber_2
+    21300172: slider1_back
+    21300174: icon_lobbyclan
+    21300176: btn_gamestart11
+    21300178: btn_gamestart10
+    21300180: btn_gamestart12
+    21300182: text_leaguenumber_7
+    21300184: back_fingerguide
+    21300186: battle_chat
+    21300188: battle_exit
+    21300190: icon_coupon
+    21300192: back_slot1_ready
+    21300194: back_slot1_blank
+    21300196: back_slot1_select
+    21300198: back_textbubble3
+    21300200: icon_lobbyleader
+    21300202: battle_pow
+    21300204: icon_trophy
+    21300206: icon_supporton
+    21300208: icon_supportcancel
+    21300210: gauge_userexp1
+    21300212: battle_hitdirection
+    21300214: battle_killcountback
+    21300216: icon_lobbyranking
+    21300218: Effect_ShineAnimation
+    21300220: back_circle1
+    21300222: battle_runguage
+    21300224: slider1_fore
+    21300226: icon_lv
+    21300228: icon_crown
+    21300230: back_tooltip0
+    21300232: icon_lobbyoption
+    21300234: back_textbubble4
+    21300236: icon_lobbyquest
+    21300238: btn_medalbox_off
+    21300240: btn_medalbox_on
+    21300242: battle_memberhp
+    21300244: battle_memberhpback
+    21300246: icon_people
+    21300248: back_roundbox2
+    21300250: icon_lobbyletter
+    21300252: battle_timewatch0
+    21300254: back_money
+    21300256: icon_gold
+    21300258: icon_gold_ani5
+    21300260: icon_gold_ani0
+    21300262: icon_gold_ani3
+    21300264: icon_gold_ani4
+    21300266: icon_gold_ani1
+    21300268: icon_gold_ani2
+    21300270: btn_reflesh
+    21300272: btn_popupclose
+    21300274: back_roundbox8
+    21300276: icon_jam_ani3
+    21300278: icon_jam_ani2
+    21300280: icon_jam_ani5
+    21300282: icon_jam_ani4
+    21300284: icon_jam_ani1
+    21300286: icon_jam
+    21300288: icon_jam_ani0
+    21300290: btn_traning
+    21300292: icon_cash
+    21300294: icon_lv_1
+    21300296: text_leaguenumber_1
+    21300298: battle_sniperaim
+    21300300: back_roundbox5
+    21300302: icon_staff
+    21300304: icon_master
+    21300306: chaticon_friend
+    21300308: chaticon_all
+    21300310: chaticon_clan
+    21300312: chaticon_vs
+    21300314: icon_watch
+    21300316: battle_text_killer
+    21300318: battle_reloadtext
+    21300320: icon_lobbynews
+    21300322: battle_reload_sliderfore
+    21300324: icon_chat
+    21300326: slider2_fore
+    21300328: icon_medal
+    21300330: battle_autooff
+    21300332: battle_battleprogress
+    21300334: battle_autoon
+    21300336: icon_return
+    21300338: battle_setting
+    21300340: icon_grade_4
+    21300342: icon_grade_5
+    21300344: icon_grade_3
+    21300346: icon_grade_2
+    21300348: icon_grade_1
+    21300350: text_slot_a
+    21300352: text_reader
+    21300354: back_roundbox7
+    21300356: text_slot_c
+    21300358: back_roundbox4
+    21300360: icon_find_small
+    21300362: back_roundbox
+    21300364: text_slot_b
+    21300366: icon_member
+    21300368: back_cost
+    21300370: text_new
+    21300372: icon_timewatch0
+    21300374: battle_reload_sliderback
+    21300376: btn_plus1
+    21300378: slider2_back
+    21300380: battle_you
+    21300382: slider3_back
+    21300384: battle_text_nolimit
+    21300386: battle_lockon
+    21300388: icon_view
+    21300390: icon_new
+    21300392: icon_checkmark
+    21300394: btn_plus
+    21300396: back_gradation1
+    21300398: back_Line
+    21300400: battle_myteamicon
+    21300402: icon_plus
+    21300404: icon_attention
+    21300406: icon_change
+    21300408: slider3_handle
+    21300410: back_black
+    21300412: back_saleline
+    21300414: icon_arrow_lvup
+    21300416: icon_arrow_trophy
+    21300418: icon_arrow_nextspec
+    21300420: battle_aimline
+    21300422: battle_timewatch2
+    21300424: battle_timewatch1
+    21300426: icon_timewatch2
+    21300428: back_Line1
+    21300430: icon_timewatch1
+    21300432: battle_aimspot
+    21300434: chicon_10001
+    21300436: chicon_10006
+    21300438: chicon_10007
+    21300440: chicon_10004
+    21300442: chicon_10003
+    21300444: chicon_10002
+    21300446: chicon_10005
+    21300448: battle_text_10
+    21300450: mapicon_1
+    21300452: mapicon_2
+    21300454: mapicon_3
+    21300456: chicon_10008
+    21300458: battle_skill_3
+    21300460: battle_skill_4
+    21300462: battle_skill_1
+    21300464: battle_skill_2
+    21300466: battle_skill_9
+    21300468: battle_skill_8
+    21300470: battle_skill_5
+    21300472: battle_skill_10
+    21300474: battle_skill_7
+    21300476: battle_skill_6
+    21300478: lobby_skill_5
+    21300480: lobby_skill_6
+    21300482: lobby_skill_7
+    21300484: lobby_skill_4
+    21300486: lobby_skill_1
+    21300488: lobby_skill_2
+    21300490: lobby_skill_3
+    21300492: lobby_skill_8
+    21300494: mapicon_0
+    21300496: wpntype_6
+    21300498: wpntype_5
+    21300500: wpntype_8
+    21300502: wpntype_7
+    21300504: wpntype_1
+    21300506: wpntype_0
+    21300508: wpntype_3
+    21300510: wpntype_2
+    21300512: icon_rankingall
+    21300514: mapicon_4
+    21300516: battle_skill_21
+    21300518: lobby_skill_21
+    21300520: chicon_10009
+    21300522: icon_remove
+    21300524: mapicon_5
+    21300526: mapicon_6
+    21300528: set_1
+    21300530: set_3
+    21300532: set_4
+    21300534: set_2
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: text_gameover
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 564
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: text_draw
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 435
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: text_lose
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 113
+        width: 350
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: text_win
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 0
+        width: 278
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_damage
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 113
+        width: 200
+        height: 180
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loginicon_google
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 135
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loginicon_guest
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 248
+        width: 134
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loginicon_gamecenter
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 134
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loginicon_facebook
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 134
+        width: 134
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_text_4
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 134
+        width: 229
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_text_3
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 134
+        width: 226
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_text_2
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 211
+        width: 227
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_text_1
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 0
+        width: 219
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mapicon_2
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 0
+        width: 200
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mapicon_4
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 76
+        width: 200
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mapicon_5
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 0
+        width: 200
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mapicon_1
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 135
+        width: 200
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mapicon_0
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 212
+        width: 200
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mapicon_3
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 288
+        width: 200
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mapicon_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 294
+        width: 200
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_text_6
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 81
+        width: 222
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_text_5
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 153
+        width: 221
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_text_8
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 157
+        width: 221
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_text_9
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 216
+        width: 222
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_text_7
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 225
+        width: 220
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_text_10
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 229
+        width: 186
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_hp
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 288
+        width: 114
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_charactermove
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 287
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_cameramove
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 287
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_text_tutorial
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 293
+        width: 191
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_critical
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 340
+        width: 104
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_skill_10
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 340
+        width: 92
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_skill_5
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 153
+        width: 92
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_skill_8
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 81
+        width: 92
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_skill_6
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 174
+        width: 92
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_skill_7
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 246
+        width: 92
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_skill_1
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 267
+        width: 92
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_skill_9
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 369
+        width: 92
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_skill_3
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 369
+        width: 92
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_jump
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 369
+        width: 92
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_skill_4
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 403
+        width: 92
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_skill_2
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 423
+        width: 92
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_skill_21
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 375
+        width: 92
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_ad
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 375
+        width: 103
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_loading
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 457
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_friendinvite
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 462
+        width: 92
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_skull
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 462
+        width: 86
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_chat
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 462
+        width: 84
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: back_slot1_blank
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 496
+        width: 84
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: back_slot1_select
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 545
+        width: 84
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_pow
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 87
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_remove
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 383
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_hitdirection
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 120
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_cash
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 81
+        width: 85
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chicon_10007
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 383
+        width: 100
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chicon_10009
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 440
+        width: 100
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chicon_10008
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 497
+        width: 100
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chicon_10001
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516
+        width: 100
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chicon_10003
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 497
+        width: 100
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chicon_10002
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 548
+        width: 100
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chicon_10004
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 551
+        width: 100
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_rankingall
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 552
+        width: 100
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chicon_10006
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 554
+        width: 100
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chicon_10005
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 573
+        width: 100
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_gold
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 294
+        width: 70
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_jam
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 267
+        width: 64
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wpntype_5
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 341
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wpntype_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 554
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wpntype_7
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 611
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wpntype_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wpntype_0
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 605
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wpntype_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 605
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wpntype_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 623
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wpntype_8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 680
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lobby_skill_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 699
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lobby_skill_1
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 608
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lobby_skill_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 674
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lobby_skill_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 692
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lobby_skill_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 749
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lobby_skill_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lobby_skill_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 674
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lobby_skill_4
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 609
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lobby_skill_21
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 677
+        width: 68
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_lv_1
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 609
+        width: 64
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_staff
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 678
+        width: 80
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chaticon_friend
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 743
+        width: 75
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chaticon_vs
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 743
+        width: 75
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chaticon_all
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 296
+        width: 75
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chaticon_clan
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 296
+        width: 75
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_reloadtext
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 339
+        width: 123
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_battleprogress
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 761
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_coupon
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 818
+        width: 56
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_setting
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 837
+        width: 57
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_exit
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 339
+        width: 55
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_lobbyranking
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 360
+        width: 58
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_master
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 296
+        width: 80
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_you
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 468
+        width: 67
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_text_nolimit
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 293
+        width: 54
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_checkmark
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 554
+        width: 45
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_myteamicon
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 464
+        width: 38
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_attention
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 496
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: battle_network
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 229
+        width: 38
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_arrow_lvup
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 462
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: set_3
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 296
+        width: 27
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: set_4
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 259
+        width: 27
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: set_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 630
+        width: 27
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: set_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 623
+        width: 27
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

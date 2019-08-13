@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+          package="com.dy.herostars"  xmlns:tools="http://schemas.android.com/tools" android:installLocation="preferExternal">
+
+ <!-- 인앱결체 퍼미션-->
+  <uses-permission android:name="com.android.vending.BILLING" />
+
+
+  <application  android:isGame="true" android:label="@string/app_name" android:icon="@mipmap/app_icon" android:theme="@style/UnityThemeSelector" android:usesCleartextTraffic="true">
+
+
+    <activity android:label="@string/app_name" android:hardwareAccelerated="false" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density" android:launchMode="singleTask" android:screenOrientation="sensorLandscape" android:name="com.unity3d.player.UnityPlayerActivity">
+
+
+      <intent-filter>
+
+        <action android:name="android.intent.action.MAIN"/>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+
+        <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+
+      </intent-filter>
+
+      <meta-data android:name="unityplayer.UnityActivity" android:value="true"/>
+
+    </activity>
+
+  </application>
+</manifest>

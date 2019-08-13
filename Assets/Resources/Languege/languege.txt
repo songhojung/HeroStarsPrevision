@@ -1,0 +1,23 @@
+﻿Lang Code,KR,EN
+1,전투,Battle
+2,상점,Shop
+3,클랜,Clan
+4,편성,Formation
+5,설정,Option
+6,랭킹,Ranking
+7,친구,Friend
+8,소식,News
+9,탭해서 열기,Tap to unlock
+1000,무료보급함,Free Box
+1001,브론즈보급함,Bronze Box
+1002,실버보급함,Silver Box
+1003,골드보급함,Gold Box
+1004,메달보급함,Medal Box
+1005,튜토보급함,Turo Box
+2000,{0}일,{0} days
+2001,{0}시간,{0} h
+2002,{0}분,{0} min
+2003,{0}분{1}초,{0} min {1} sec
+2004,{0}초,{0} sec
+2005,{0}일 {1}시간,{0} days {1} h
+2006,{0}시간 {1}분,{0} h {1} min

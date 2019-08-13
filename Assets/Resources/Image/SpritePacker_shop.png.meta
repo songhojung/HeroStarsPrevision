@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: b0f45054aa9b12948b966e3df8781141
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: shopicon_13
+    21300002: shopicon_6
+    21300004: shopicon_5
+    21300006: shopicon_4
+    21300008: shopicon_3
+    21300010: shopicon_2
+    21300012: shopicon_1
+    21300014: shopicon_12
+    21300016: shopicon_11
+    21300018: shopicon_10
+    21300020: shopicon_9
+    21300022: shopicon_8
+    21300024: shopicon_7
+    21300026: boxicon_43
+    21300028: boxicon_42
+    21300030: boxicon_41
+    21300032: boxicon_12
+    21300034: boxicon_11
+    21300036: boxicon_13
+    21300038: boxopen_42
+    21300040: boxicon_21
+    21300042: boxopen_43
+    21300044: boxopen_21
+    21300046: boxopen_41
+    21300048: boxicon_31
+    21300050: boxopen_31
+    21300052: boxopen_13
+    21300054: boxopen_12
+    21300056: boxopen_11
+    21300058: boxicon_53
+    21300060: boxopen_51
+    21300062: boxopen_53
+    21300064: boxopen_52
+    21300066: boxicon_52
+    21300068: boxicon_51
+    21300070: boxicon_0
+    21300072: boxopen_0
+    21300074: shopicon_13
+    21300076: shopicon_14
+    21300078: shopicon_206
+    21300080: shopicon_106
+    21300082: shopicon_105
+    21300084: shopicon_208
+    21300086: shopicon_205
+    21300088: shopicon_204
+    21300090: shopicon_203
+    21300092: shopicon_207
+    21300094: shopicon_104
+    21300096: shopicon_202
+    21300098: shopicon_101
+    21300100: shopicon_201
+    21300102: shopicon_103
+    21300104: shopicon_102
+    21300106: shopicon_303
+    21300108: shopicon_302
+    21300110: shopicon_301
+    21300112: shopicon_401
+    21300114: shopicon_308
+    21300116: shopicon_304
+    21300118: shopicon_307
+    21300120: shopicon_306
+    21300122: shopicon_305
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shopicon_205
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 207
+        height: 191
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d302e60aa2f6f4d8db814d9195f7fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopicon_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 180
+        height: 173
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f983f85c260b524dbfd4472b2295249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopicon_303
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 192
+        width: 176
+        height: 161
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a989bfb7bba0284c9d5cd824791fc2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopicon_204
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 354
+        width: 180
+        height: 153
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aefe546ce5089b44ad207f7732e8b14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopicon_302
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 172
+        height: 158
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2cefb220b32a7428f33bae82afeb84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopicon_104
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 159
+        width: 161
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd88dc09d3d4ae44af5db3db4a70658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopicon_304
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 0
+        width: 172
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e8acaa64ada0449ac2bc02a76678ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopicon_307
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 325
+        width: 162
+        height: 153
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff2d2f7e8453004aafccea6659f2a4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopicon_301
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 153
+        width: 141
+        height: 149
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65cf27f4c6bd79845b502ee25135d2ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopicon_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 366
+        width: 162
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ec7c368e7f08d46b2937bda32b3c98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopicon_203
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 0
+        width: 159
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbad2fc4fc0096499f8d82774f7600e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopicon_306
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 303
+        width: 159
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bea285acce894248877ca2a7e05bd5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopicon_101
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 113
+        width: 127
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd289ea7158b6994fb941412df53e8ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopicon_201
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 242
+        width: 111
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b44e8ad236b76f4da3667fbf1aa8b27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopicon_102
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 0
+        width: 131
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3a299760a0af0409ab16d29888a93d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopicon_202
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 104
+        width: 125
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d880460b67e5e4bb18a3a3ac6695d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopicon_305
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 0
+        width: 125
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae5509e701c31947bc5da9fad2ef3a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

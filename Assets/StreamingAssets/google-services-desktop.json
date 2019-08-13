@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "125434796663,910677924034",
+    "firebase_url": "https://miniground-18318384.firebaseio.com",
+    "project_id": "miniground-18318384",
+    "storage_bucket": "miniground-18318384.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125434796663:android:d88c1b1af8f814a9",
+        "android_client_info": {
+          "package_name": "com.cle.dy.miniground"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125434796663-lb8gp7duf80jmd7ltg0r409087inu9ee.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "125434796663-154tukl8vrg0bdganig4k5dbt6nipa4r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cle.dy.miniground",
+            "certificate_hash": "f3b81ac7eb6e38f8c3246f7d381b0e40b5a2aad4"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvBNFkTACu2AzcpB3NtLxMY-7VeEn8fXI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125434796663-lb8gp7duf80jmd7ltg0r409087inu9ee.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "125434796663-q601q43o6kos8448rut569hb0tenp36m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cle.dy.miniground",
+                "app_store_id": "1354884355"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

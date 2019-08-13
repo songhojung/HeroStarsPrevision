@@ -1,0 +1,34 @@
+{
+
+	"설명1":"DownPath : 다운로드 파일 경로",
+	"설명2":"DownFileDelete : 사용한 엑셀 파일 사용후 삭제",
+	"설명3":"DownURL : 구글 드라이브 주소 [DownPath에 값이 없어야함] (이 방식은 편하긴 바로바로 데이터가 동기화 안되고 구글 드라이브 동기화 하는데 시간좀 걸리는듯... 그래서 비추천)",
+	"설명4":"SheetName : 시트명 입력",
+	"설명5":"X : 는 가로 시작 위치(A=1), Y : 는 세로 시작위치, FileName:OutPut 파일명",
+
+	"DownPath":"SDFC_Translate_TextData.xlsx",
+	"DownFileDelete":true,
+	"DownURL":"",
+	"UnityProjectPath":"..\\Resources\\TextData\\",
+	"DataList":
+	[
+	{
+		"SheetName":"TextData",
+			"DataList":
+			[
+				{"X":1, "Y":3,"FileName":"kr\\TextData.txt"},
+				{"X":3, "Y":3,"FileName":"en\\TextData.txt"},
+				{"X":5, "Y":3,"FileName":"jp\\TextData.txt"},	
+			]
+		},
+		{
+			"SheetName":"NetErrorCode",
+			"DataList":
+			[
+				{"X":2, "Y":3,"FileName":"kr\\ErrorCode.txt"},
+				{"X":4, "Y":3,"FileName":"en\\ErrorCode.txt"},
+				{"X":6, "Y":3,"FileName":"jp\\ErrorCode.txt"},
+			]
+		},
+	]
+}
