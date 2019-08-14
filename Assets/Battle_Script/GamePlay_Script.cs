@@ -3088,26 +3088,26 @@ public class GamePlay_Script : MonoBehaviour
     public void Recv_OtainGameItem_Move_Data(ByteData _Receive_data)
     {
         byte createdIndex = 0;
-        byte ObtainItemUserKnd = 0;
+       // byte ObtainItemUserKnd = 0;
          
         _Receive_data.OutPutVariable(ref createdIndex);
-        _Receive_data.OutPutVariable(ref ObtainItemUserKnd);
+       // _Receive_data.OutPutVariable(ref ObtainItemUserKnd);
 
 
         //생성 되지 않았다면 만들어 준다.
         if (Dic_OtainItems.ContainsKey(createdIndex) == false)
         {
 
-            ObtainItem_Info obItem = new ObtainItem_Info();
-            obItem.createdIndex = createdIndex;
-            obItem.Receive_data = _Receive_data; // 남은데이터 할당
+            //ObtainItem_Info obItem = new ObtainItem_Info();
+            //obItem.createdIndex = createdIndex;
+            //obItem.Receive_data = _Receive_data; // 남은데이터 할당
 
-            Lst_willCreationObtainItem.Add(obItem);
-            //Make_ObtainItem(createdIndex);
+            //Lst_willCreationObtainItem.Add(obItem);
+            Make_ObtainItem(createdIndex);
 
-            //Dic_OtainItems[createdIndex].Init_Item(CHAR_USER_KIND.NETWORK, createdIndex);
-            ////초기위치설정
-            //Dic_OtainItems[createdIndex].Init_LocationPos(_Receive_data);
+            Dic_OtainItems[createdIndex].Init_Item(CHAR_USER_KIND.NETWORK, createdIndex);
+            //초기위치설정
+            Dic_OtainItems[createdIndex].Init_LocationPos(_Receive_data);
         }
         else
         {
