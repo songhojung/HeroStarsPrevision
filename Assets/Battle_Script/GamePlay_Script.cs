@@ -3089,7 +3089,7 @@ public class GamePlay_Script : MonoBehaviour
     {
         byte createdIndex = 0;
         byte ObtainItemUserKnd = 0;
-
+         
         _Receive_data.OutPutVariable(ref createdIndex);
         _Receive_data.OutPutVariable(ref ObtainItemUserKnd);
 
