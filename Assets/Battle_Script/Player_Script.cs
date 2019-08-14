@@ -1853,12 +1853,28 @@ public class Player_Script : MonoBehaviour
             return;
         }
 
+        //Hj : 획득아이템 처리 
+        if (hit.collider.CompareTag("ObtainItem"))
+        {
+            Debug.Log("OBTAIN ITEM : " + hit.collider.name);
+            ObtainGameItem item = hit.collider.GetComponent<ObtainGameItem>();
+            GamePlay_Script.Getsingleton.Remove_ObtainItem((byte)item.CreatedIndex);
+            if (User_Team < 50) Barrier_OJ[User_Team].SetActive(true);
+            Barrier_Check = true;
+            Barrier_Time = 3.0f;
+            Barrier_Net_Send_Time = 0.0f;
+            return;
+        }
+
+
         //러쉬 스킬중이 아니라면 리턴
         if (Roller_Time == 0.0f) return;
 
         if (Roller_Hit_Check_Time < 0.1f) return;
 
         if (hit.collider.CompareTag("WALL")) return;
+
+        
 
         if (Link_Script.i.Play_Mode == BattleKind.ALONE_PLAY_BATTLE)//싱글모드
         {

@@ -11,7 +11,7 @@ public class ObtainGameItem : MonoBehaviour
     private Vector3 Rcv_Position;
     private Vector3 Rcv_EulerAngles;
 
-    private int CreatedIndex = 0;
+    public int CreatedIndex = 0;
     private float Move_Time = 0;
 
     private bool hasMoved = false;
@@ -44,7 +44,7 @@ public class ObtainGameItem : MonoBehaviour
 
     void Operation_Move()
     {
-        if (!hasMoved) return;
+        if (!hasMoved || ObtainItemUserKnd == CHAR_USER_KIND.PLAYER) return;
 
         Tr.position = Vector3.Lerp(Tr.position, Rcv_Position, Time.deltaTime);
         Tr.rotation = Quaternion.Slerp(Tr.rotation, Quaternion.Euler(Rcv_EulerAngles), (Time.deltaTime * 10.0f));

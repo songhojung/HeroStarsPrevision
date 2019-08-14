@@ -3131,6 +3131,19 @@ public class GamePlay_Script : MonoBehaviour
         Dic_OtainItems[_createdIndex] = obtainItem;
     }
 
+    //hj : 아이템 삭제
+    public void Remove_ObtainItem(byte _createdIndex)
+    {
+        if (Dic_OtainItems.ContainsKey(_createdIndex))
+        {
+            Destroy(Dic_OtainItems[_createdIndex].gameObject);
+
+            Dic_OtainItems.Remove(_createdIndex);
+
+        }
+            
+    }
+
 
     int TotalObtainItemCreatedCntForTest = 0;
     void ForceCreate_ObtainItem()
@@ -3139,7 +3152,7 @@ public class GamePlay_Script : MonoBehaviour
 
         if(Dic_OtainItems.ContainsKey((byte)TotalObtainItemCreatedCntForTest))
         {
-            Vector3 pos = Char_Script[MY_INDEX].transform.position;
+            Vector3 pos = Char_Script[MY_INDEX].transform.position + (Char_Script[MY_INDEX].transform.forward *2f);
 
             Dic_OtainItems[(byte)TotalObtainItemCreatedCntForTest].Init_Item(CHAR_USER_KIND.PLAYER, (byte)TotalObtainItemCreatedCntForTest);
 
