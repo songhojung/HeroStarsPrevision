@@ -1859,6 +1859,7 @@ public class Player_Script : MonoBehaviour
             Debug.Log("OBTAIN ITEM : " + hit.collider.name);
             ObtainGameItem item = hit.collider.GetComponent<ObtainGameItem>();
             GamePlay_Script.Getsingleton.Remove_ObtainItem((byte)item.CreatedIndex);
+            //무적 On
             if (User_Team < 50) Barrier_OJ[User_Team].SetActive(true);
             Barrier_Check = true;
             Barrier_Time = 3.0f;

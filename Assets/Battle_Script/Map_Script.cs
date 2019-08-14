@@ -8,6 +8,7 @@ public class Map_Script : MonoBehaviour
     public Vector3[] Map_Start_Pos = new Vector3[12];
     public Quaternion[] Map_Start_Dir = new Quaternion[12];
     public Vector3[] Map_Bot_Point_Pos;
+    public Vector3[] Map_DestroyModePos;
 
     public void Map_Init(byte _Map_Index)
     {

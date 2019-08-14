@@ -932,7 +932,7 @@ public class UI_Lobby : UI_Base
         Network_MainMenuSoketManager.Getsingleton.Operation_State = MMSERVER_STATE.TRY_QUICKJOIN;
 
         //퀵조인 요청 보내기
-        _user.user_Games.battleGameKind = BattleKind.NORMAL;    //배틀종류 저장
+        _user.user_Games.battleGameKind = BattleKind.WAR_OF_POSITION;    //배틀종류 저장
         Link_Script.i.GamePlay_Send_Quick_Join(_user.user_Games.battleGameKind);
 
 
