@@ -354,6 +354,9 @@ public class GamePlay_Script : MonoBehaviour
                 //게임 오버 받으면 일정시간 딜레이후 넘어간다. 게임오버 바로 넘어가면 캐릭터 죽는게 스킵 되버린다.
                 GameOver_Net_Check();
 
+                //Hj: 아이템 작동관련
+                Operation_ObtainItem();
+
                 break;
             case GAMEPLAY_STATE.GAME_OVER_INIT:
 
@@ -3045,11 +3048,43 @@ public class GamePlay_Script : MonoBehaviour
 
 
     // =============================인게임 게임 아이템 처리관련================================
+    class ObtainItem_Info
+    {
+        public byte createdIndex = 0;
+        public ObtainGameItemKind ObtainItemUserKnd;
+        public ByteData Receive_data;
+    }
 
 
     public Dictionary<byte, ObtainGameItem> Dic_OtainItems = new Dictionary<byte, ObtainGameItem>();
+    private List<ObtainItem_Info> Lst_willCreationObtainItem = new List<ObtainItem_Info>();
     private GameObject Object_OrinObtainGameItem;
 
+
+    //hj : 아이템 작동
+    void Operation_ObtainItem()
+    {
+        //생성 아이템잇는지 체크 잇으면생성,후 초기화
+        for (int i = 0; i < Lst_willCreationObtainItem.Count; i++)
+        {
+            byte createIdx = Lst_willCreationObtainItem[i].createdIndex;
+
+            if (!Dic_OtainItems.ContainsKey(createIdx))
+            {
+                //생성
+                Make_ObtainItem(createIdx);
+                //초기화
+                Dic_OtainItems[createIdx].Init_Item(CHAR_USER_KIND.NETWORK, createIdx);
+                //초기위치설정
+                Dic_OtainItems[createIdx].Init_LocationPos(Lst_willCreationObtainItem[i].Receive_data);
+            }
+        }
+
+        Lst_willCreationObtainItem.Clear();
+    }
+
+
+    //hj : 아이템 움직임관련 데이터 받기
     public void Recv_OtainGameItem_Move_Data(ByteData _Receive_data)
     {
         byte createdIndex = 0;
@@ -3062,11 +3097,17 @@ public class GamePlay_Script : MonoBehaviour
         //생성 되지 않았다면 만들어 준다.
         if (Dic_OtainItems.ContainsKey(createdIndex) == false)
         {
-            Make_ObtainItem(createdIndex);
 
-            Dic_OtainItems[createdIndex].Init_Item(CHAR_USER_KIND.NETWORK, createdIndex);
-            //초기위치설정
-            Dic_OtainItems[createdIndex].Init_LocationPos(_Receive_data);
+            ObtainItem_Info obItem = new ObtainItem_Info();
+            obItem.createdIndex = createdIndex;
+            obItem.Receive_data = _Receive_data; // 남은데이터 할당
+
+            Lst_willCreationObtainItem.Add(obItem);
+            //Make_ObtainItem(createdIndex);
+
+            //Dic_OtainItems[createdIndex].Init_Item(CHAR_USER_KIND.NETWORK, createdIndex);
+            ////초기위치설정
+            //Dic_OtainItems[createdIndex].Init_LocationPos(_Receive_data);
         }
         else
         {
@@ -3076,7 +3117,7 @@ public class GamePlay_Script : MonoBehaviour
     }
 
    
-    //아이템 생성
+    //hj : 아이템 생성
     void Make_ObtainItem(byte _createdIndex)
     {
         if(Object_OrinObtainGameItem == null)
