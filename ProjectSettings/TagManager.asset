@@ -16,6 +16,7 @@ TagManager:
   - OutSide_Cube
   - DeadZone
   - Destroy_OJ
+  - ObtainItem
   layers:
   - Default
   - TransparentFX
